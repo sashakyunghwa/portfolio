@@ -74,7 +74,7 @@
     }
 
     #hapa {
-        font-family: 'Jenna Sue';
+        font-family: 'Jenna Sue', sans-serif;
         color: #131517;
         font-size: 2rem;
         text-align: center; 
@@ -1123,7 +1123,7 @@
         color: #131517
     }
 
-    .zoom-details-btn > a:first-child:after {
+    /* .zoom-details-btn > a:first-child:after {
         width: 2px;
         height: 20px;
         background-color: #fff;
@@ -1132,7 +1132,7 @@
         content: '';
         z-index: 2;
         position: absolute;
-    }
+    } */
 
     .single_gallery_content:hover .hover_overlay {
         opacity: 1;
@@ -1516,6 +1516,10 @@
 
     .related-area:hover .owl-next {
         right: 0;
+    }
+
+    .motto-container {
+        width: 75%;
     }
 
     .motto-photo{
@@ -1947,7 +1951,7 @@ section {
 }
 
 .contact-icons {
-    height: 40px;
+    height: 2em;
 }
 
 .welcome_area {
