@@ -1026,7 +1026,7 @@
         background-position: center center;
         background-size: cover;
         height: 868px;
-        background-attachment: fixed;
+        /* background-attachment: fixed; */
         width: 100%;
     }
 
@@ -1058,7 +1058,7 @@
     }
 
     .gallery_area {
-        margin-top: 10%;
+        margin-top: 50px;
     }
 
     .gallery_menu .portfolio-menu button .badge {
@@ -1331,6 +1331,10 @@ section {
  #modal_black_strip {
      height: 38px;
  }
+
+ a:hover {
+    color: #a3a3a3;
+ }
  
  #bold_hapa {
     color: #131517;
@@ -1426,8 +1430,12 @@ section {
     margin-bottom: 35px;
 }
 
-.mt-10 {
-    margin-top: 20px;
+/* .mt-10 {
+    margin-top: -100px;
+} */
+
+.gallery_area {
+    margin-top: 0px;
 }
 
 .icon-title {
@@ -1476,4 +1484,16 @@ section {
 
 .project-link {
     display: inline-block;
+}
+
+.fa:hover {
+    color: #a3a3a3;
+}
+
+.project-icon-text:hover {
+    color: #a3a3a3;
+}
+
+.alt-title:hover {
+    color: #a3a3a3;
 }
