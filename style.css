@@ -88,8 +88,7 @@
         margin-top: 5%;
     }
 
-    a,
-    a:focus {
+    a, a:focus, a:hover {
         font-family: 'Open Sans', sans-serif;
         -webkit-transition-duration: 500ms;
         -o-transition-duration: 500ms;
@@ -1026,7 +1025,7 @@
         overflow: hidden;
         background-position: center center;
         background-size: cover;
-        height: 800px;
+        height: 868px;
         background-attachment: fixed;
         width: 100%;
     }
@@ -1470,7 +1469,9 @@ section {
     line-height: 1.6;
     text-transform: uppercase;
     text-align: center;
-    margin-left: 39px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
 }
 
 .project-link {
