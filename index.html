@@ -45,7 +45,7 @@
                         <nav class="h-100 navbar navbar-expand-lg bg-transparent">
                             <!-- <a class="navbar-brand" href="index.html">skRoss</a> -->
                             <a class="motto-container" href="index.html">
-                                <img class="motto-photo"src="img/bg-img/motto2.png">
+                                <img class="motto-photo"src="img/bg-img/motto.png">
                             </a>
                             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#light-navbar" aria-controls="light-navbar" aria-expanded="false" aria-label="Toggle navigation"><span class="ti-menu"></span></button>
                             <div class="collapse navbar-collapse" id="light-navbar">
@@ -78,75 +78,58 @@
     </header>
     <!-- >>>>>>>>>>>>>>>> Header End <<<<<<<<<<<<<<<<< -->
 
-    <!-- >>>>>>>>>>>>>>>> Welcome Area Start <<<<<<<<<<<<<<<< -->
-    <section id="home" class="welcome_area" style="background-image: url('img/bg-img/test.png');" id="home">
-        <div class="container h-100">
-            <div class="row h-100 align-items-center">
+    <!-- >>>>>>>>>>>>>>>> Home Area Start <<<<<<<<<<<<<<<< -->
+    <section id="home" class="welcome_area" style="background-image: url('img/bg-img/logo.png');" id="home"></section>
+    <!-- >>>>>>>>>>>>>>>> Home Area End <<<<<<<<<<<<<<<< -->
+
+    <!-- >>>>>>>>>>>>>>>> About Area Start <<<<<<<<<<<<<<<< -->
+    <section id="about" class="about_us_area section_padding_100">
+        <div class="container">
+            <div class="row">
                 <div class="col-12">
-                    <div class="welcome_area_content text-center">
-                        <div class="welcome_content">
-                            <!-- <div class="watch-overview"> -->
-                                <!-- <a href="#" class="video_btn"><i class="ti-control-play" aria-hidden="true"></i> Watch My Overview</a>
-                            </div> -->
-                            <!-- <h2>Hello, I'm Sasha Ross</h2> -->
-                            <!-- <p>Front-end Developer.</p> -->
-                            <!-- <a href="#" class="btn light-btn">Learn More</a> -->
-                        </div>
+                    <!-- Section Heading Start -->
+                    <div class="section_heading">
+                        <h1>HELLO, I'M SASHA.</h1>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <!-- >>>>>>>>>>>>>>>> Welcome Area End <<<<<<<<<<<<<<<< -->
 
-  <!-- >>>>>>>>>>>>>>>> About Us Area Start <<<<<<<<<<<<<<<< -->
-  <section id="about" class="about_us_area section_padding_100">
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <!-- Section Heading Start -->
-                <div class="section_heading">
-                    <h1>HELLO, I'M SASHA.</h1>
+            <div class="row">
+                <div class="offset-1 col-md-4 mb-sm-30 team-item-info">
+                    <img class="about-me-photo"src="img/bg-img/about_me.jpg" style="width:100%" alt="">
+                </div>
+                <div class="about_paragraph offset-1 col-md-5 mb-sm-30">
+                    <p>I'm a <a href="#modal" onClick="document.getElementById('id01').style.display='block'"><strong>H.A.P.A.</strong></a> girl from the cozy streets of Orange County, who happily enjoys technology and creative innovation. I'm a Front End Developer. I'm fascinated by the digital space: web design, coding, branding, and photography.</p>
+                    <p>I've created projects from personal branding to corporate branding designs. I created my own personal portfolio site from scratch and am currently in pursuit of improving my design skills day by day. I'm proficient with Adobe Creative Suite, specifically Photoshop, Illustrator, InDesign, and Adobe XD.</p>
+                    <p>I'm passionate about creating something out of nothing. I love creating authentic designs and websites to show peoples'/brands' true personality. I love working with new clients, future employers, bloggers, and photographers to make your creative vision a reality! Let's create!</p>
+                    <p id="hapa">#CreativeVibesOnly is what's H.A.P.A.ning!</p>
+                    <!-- <a href="#" class="btn light-btn">Discover More</a> -->
                 </div>
             </div>
         </div>
 
-        <div class="row">
-            <div class="offset-1 col-md-4 mb-sm-30 team-item-info">
-                <img class="about-me-photo"src="img/bg-img/about_me.jpg" style="width:100%" alt="">
+        <div class="w3-container" id="modal"> 
+            <div id="id01" class="w3-modal">
+            <div class="w3-modal-content w3-animate-zoom" style="width:45%">
+                <header class="w3-container w3-black" style="height:38px" id="#modal_black_strip"> 
+                <span onclick="document.getElementById('id01').style.display='none'" 
+                class="w3-button w3-display-topright">&times;</span>
+                <h2 class="modal_padding"></h2>
+                </header>
+                <div class="w3-container">
+                    <h6 class="hapa_header">*HAPA [hah-puh]</h6>
+                    <p class="hapa_definition"><strong id="bold_hapa">ha•pa (hä’pä)</strong> adjective 1. half asian part another<br>
+                    noun 2. a person of mixed-race heritage who identifies<br> racially and culturally as both white and of Asian descent<br>
+                    noun 3. damn good looking people</p>
+                </div>
+                <footer class="w3-container w3-black" style="height:38px" id="#modal_black_strip">
+                <p class="modal_padding"></p>
+                </footer>
             </div>
-            <div class="about_paragraph offset-1 col-md-5 mb-sm-30">
-                <p>I'm a <a href="#modal" onClick="document.getElementById('id01').style.display='block'"><strong>H.A.P.A.</strong></a> girl from the cozy streets of Orange County, who happily enjoys technology and creative innovation. I'm a Front End Developer. I'm fascinated by the digital space: web design, coding, branding, and photography.</p>
-                <p>I've created projects from personal branding to corporate branding designs. I created my own personal portfolio site from scratch and am currently in pursuit of improving my design skills day by day. I'm proficient with Adobe Creative Suite, specifically Photoshop, Illustrator, InDesign, and Adobe XD.</p>
-                <p>I'm passionate about creating something out of nothing. I love creating authentic designs and websites to show peoples'/brands' true personality. I love working with new clients, future employers, bloggers, and photographers to make your creative vision a reality! Let's create!</p>
-                <p id="hapa">#CreativeVibesOnly is what's H.A.P.A.ning!</p>
-                <!-- <a href="#" class="btn light-btn">Discover More</a> -->
             </div>
         </div>
-    </div>
 
-    <div class="w3-container" id="modal"> 
-        <div id="id01" class="w3-modal">
-          <div class="w3-modal-content w3-animate-zoom" style="width:45%">
-            <header class="w3-container w3-black" style="height:38px" id="#modal_black_strip"> 
-              <span onclick="document.getElementById('id01').style.display='none'" 
-              class="w3-button w3-display-topright">&times;</span>
-              <h2 class="modal_padding"></h2>
-            </header>
-            <div class="w3-container">
-                <h6 class="hapa_header">*HAPA [hah-puh]</h6>
-                <p class="hapa_definition"><strong id="bold_hapa">ha•pa (hä’pä)</strong> adjective 1. half asian part another<br>
-                noun 2. a person of mixed-race heritage who identifies<br> racially and culturally as both white and of Asian descent<br>
-                noun 3. damn good looking people</p>
-            </div>
-            <footer class="w3-container w3-black" style="height:38px" id="#modal_black_strip">
-              <p class="modal_padding"></p>
-            </footer>
-          </div>
-        </div>
-      </div>
-
-      <script>
+        <script>
             // Get the modal
             var modal = document.getElementById('id01');
             
@@ -156,11 +139,10 @@
                     modal.style.display = "none";
                 }
             }
-    </script>
-</section>
-<!-- >>>>>>>>>>>>>>>> About Us Area End <<<<<<<<<<<<<<<< -->
-    
-                       
+        </script>
+    </section>
+    <!-- >>>>>>>>>>>>>>>> About Area End <<<<<<<<<<<<<<<< -->
+                 
     <!-- >>>>>>>>>>>>>>>> Skills Area Start <<<<<<<<<<<<<<<< -->
     <section id="skills" class="our_service_area section_padding_0_100">
         <div class="container">
@@ -170,38 +152,29 @@
                         <h2>Skills</h2>
                     </div>
                 </div>
+                
 
             <div class="row text-center">
                 <div class="col-lg-2 col-md-2 col-4 content-box mb-20 skills-container">
                     <img class="skills-images"src="img/skills-icons/javascript.svg" alt="">
                     <p class="icon-title mt-10">JavaScript</p>
                 </div>
-
                 <div class="col-lg-2 col-md-2 col-4 content-box mb-20 skills-container">
                     <img class="skills-images"src="img/skills-icons/jquery.svg" alt="">
                     <p class="icon-title mt-10">Jquery</p>
                 </div>
-                    
-                <!-- <div class="col-lg-2 col-md-2 col-4 content-box mb-20 skills-container">
-                    <img class="skills-images"src="img/skills-icons/es6.svg" alt="">
-                    <p class="icon-title mt-10">Ecmascript6</p>
-                </div> -->
-
                 <div class="col-lg-2 col-md-2 col-4 content-box mb-20 skills-container">
                     <img class="skills-images"src="img/skills-icons/react.svg" alt="">
                     <p class="icon-title mt-10">ReactJS</p>
                 </div>
-
                 <div class="col-lg-2 col-md-2 col-4 content-box mb-20 skills-container">
                     <img class="skills-images"src="img/skills-icons/redux.svg" alt="">
                     <p class="icon-title mt-10">Redux</p>
                 </div>
-
                 <div class="col-lg-2 col-md-2 col-4 content-box mb-20 skills-container">
                     <img class="skills-images"src="img/skills-icons/html5.svg" alt="">
                     <p class="icon-title mt-10">HTML5</p>  
                 </div>
-
                 <div class="col-lg-2 col-md-2 col-4 content-box mb-20 skills-container">
                     <img class="skills-images"src="img/skills-icons/css3.svg" alt="">
                     <p class="icon-title mt-10">CSS3</p>  
@@ -213,28 +186,22 @@
                     <img class="skills-images"src="img/skills-icons/bootstrap.svg" alt="">
                     <p class="icon-title mt-10">Bootstrap</p> 
                 </div>
-
                 <div class="col-lg-2 col-md-2 col-4 content-box mb-20 skills-container">
                     <img class="skills-images"src="img/skills-icons/materialize.svg" alt="">
                     <p class="icon-title mt-10">Materialize</p> 
                 </div>
-
                 <div class="col-lg-2 col-md-2 col-4 content-box mb-20 skills-container">
                     <img class="skills-images"src="img/skills-icons/chrome.svg" alt="">
                     <p class="icon-title mt-10">Chrome Dev Tools</p>  
                 </div>
-
                 <div class="col-lg-2 col-md-2 col-4 content-box mb-20 skills-container">
                     <img class="skills-images"src="img/skills-icons/git.svg" alt="">
                     <p class="icon-title mt-10">Git</p>  
                 </div>
-
                 <div class="col-lg-2 col-md-2 col-4 content-box mb-20 skills-container">
                     <img class="skills-images"src="img/skills-icons/github.svg" alt="">
                     <p class="icon-title mt-10">Github</p>  
-                </div>
-
-                   
+                </div>                   
                 <div class="col-lg-2 col-md-2 col-4 content-box mb-20 skills-container">
                     <img class="skills-images"src="img/skills-icons/visualstudiocode.svg" alt="">
                     <p class="icon-title mt-10">VS Code</p>         
@@ -246,27 +213,22 @@
                     <img class="skills-images"src="img/skills-icons/slack.svg" alt="">
                     <p class="icon-title mt-10">Slack</p> 
                 </div>
-
                 <div class="col-lg-2 col-md-2 col-4 content-box mb-20 skills-container">
                     <img class="skills-images"src="img/skills-icons/meistertask.png" alt="">
                     <p class="icon-title mt-10">Meistertask</p> 
                 </div>
-
                 <div class="col-lg-2 col-md-2 col-4 content-box mb-20 skills-container">
                     <img class="skills-images"src="img/skills-icons/postman.svg" alt="">
                     <p class="icon-title mt-10">Postman</p> 
                 </div>
-
                 <div class="col-lg-2 col-md-2 col-4 content-box mb-20 skills-container">
                     <img class="skills-images"src="img/skills-icons/aws.svg" alt="">
                     <p class="icon-title mt-10">AWS</p> 
                 </div>
-
                 <div class="col-lg-2 col-md-2 col-4 content-box mb-20 skills-container">
                     <img class="skills-images"src="img/skills-icons/mongodb.svg" alt="">
                     <p class="icon-title mt-10">MongoDB</p> 
                 </div>
-
                 <div class="col-lg-2 col-md-2 col-4 content-box mb-20 skills-container">
                     <img class="skills-images"src="img/skills-icons/php.svg" alt="">
                     <p class="icon-title mt-10">PHP</p> 
@@ -275,6 +237,7 @@
             </div>
         </div>
     </section>
+    <!-- >>>>>>>>>>>>>>>> Skills Area End <<<<<<<<<<<<<<<< -->
 
     <!-- >>>>>>>>>>>>>>>> Projects Area Start <<<<<<<<<<<<<<<< -->
     <section id="projects" class="gallery_area section_padding_100 clearfix mt-10" id="portfolio">
@@ -284,11 +247,8 @@
                     <div class="section_heading">
                         <h2>Projects</h2>
                     </div>
-
                     <div class="gallery_full_width_images_area row clearfix">
-
                         <!-- Single gallery Item -->
-
                         <div class="gra col-12 col-sm-6 col-md-4 single_gallery_item">
                             <div class="single_gallery_content">
                                 <img src="img/gallery/codingcoops.jpg" alt="">
@@ -305,19 +265,15 @@
                             </div>
                             <div class="text-center align-middle">
                                 <a class="project-link" href="https://github.com/sashakyunghwa.com" target="_blank">
-                                    <i class="fa fa-github page-icon-sm mlt-15">
-                                        <p>Github</p>
-                                    </i>
+                                    <i class="fa fa-github github-icon mlt-15 col-lg-2 col-md-2 col-6"></i>
+                                    <p class="project-icon-text">Github</p>
                                 </a>
                                 <a class="project-link" href="http://www.codingcoops.com" target="_blank">
-                                    <i class="fa fa-television page-icon-sm mlt-15">
-                                        <p>Live Demo</p>
-                                    </i>
+                                    <i class="fa fa-television live-icon mlt-15 col-lg-2 col-md-2 col-6"></i>
+                                    <p class="project-icon-text">Live</p>
                                 </a>
                             </div>
                         </div>
-                     
-
                         <!-- Single gallery Item -->
                         <div class="gra col-12 col-sm-6 col-md-4 single_gallery_item">
                             <div class="single_gallery_content">
@@ -327,8 +283,7 @@
                                     <div class="gallery_info">
                                         <div class="zoom-details-btn">
                                             <a class="gallery_img animated fadeInDown" href="img/gallery/hackathon2.jpg"><i class="ti-zoom-in"></i></a>
-                                            <a href="single-portfolio-1.html"><i class="ti-link"></i></a>
-                                        </div>
+                                         </div>
                                         <h5>Music Concerts</h5>
                                         <p>A music concert application</p>
                                     </div>
@@ -336,18 +291,15 @@
                             </div>
                             <div class="text-center align-middle">
                                 <a class="project-link" href="https://github.com/sashakyunghwa.com" target="_blank">
-                                    <i class="fa fa-github page-icon-sm mlt-15">
-                                        <p>Github</p>
-                                    </i>
+                                    <i class="fa fa-github github-icon mlt-15 col-lg-4 col-md-4 col-4"></i>
+                                    <p class="project-icon-text">Github</p>
                                 </a>
                                 <a class="project-link" href="http://www.codingcoops.com" target="_blank">
-                                    <i class="fa fa-television page-icon-sm mlt-15">
-                                        <p>Live Demo</p>
-                                    </i>
+                                    <i class="fa fa-television live-icon mlt-15 col-lg-4 col-md-4 col-4"></i>
+                                    <p class="project-icon-text">Live</p>
                                 </a>
                             </div>
                         </div>
-
                         <!-- Single gallery Item -->
                         <div class="art col-12 col-sm-6 col-md-4 single_gallery_item">
                             <div class="single_gallery_content">
@@ -357,7 +309,6 @@
                                     <div class="gallery_info">
                                         <div class="zoom-details-btn">
                                             <a class="gallery_img animated fadeInDown" href="img/gallery/namaslay.jpg"><i class="ti-zoom-in"></i></a>
-                                            <a href="single-portfolio-1.html"><i class="ti-link"></i></a>
                                         </div>
                                         <h5>Namaslay</h5>
                                         <p>Front End</p>
@@ -366,14 +317,13 @@
                             </div>
                             <div class="text-center align-middle">
                                 <a class="project-link" href="https://github.com/sashakyunghwa/memory_match" target="_blank">
-                                    <i class="fa fa-github page-icon-sm mlt-15">
-                                        <p>Github</p>
-                                    </i>
+                                    <i class="fa fa-github github-icon mlt-1 col-lg-4 col-md-4 col-4"></i>
+                                    <p class="project-icon-text">Github</p>
                                 </a>
                                 <a class="project-link" href="http://www.sashakyunghwa.com/namaslay" target="_blank">
-                                    <i class="fa fa-television page-icon-sm mlt-15">
-                                        <p>Live Demo</p>
-                                    </i>
+                                    <i class="fa fa-television live-icon mlt-1 col-lg-4 col-md-4 col-4"></i>
+                                    <p class="project-icon-text">Live</p>
+
                                 </a>
                             </div>
                         </div>
@@ -382,8 +332,9 @@
             </div>
         </div>
     </section>
+    <!-- >>>>>>>>>>>>>>>> Project Area End <<<<<<<<<<<<<<<< -->
 
-    <!-- >>>>>>>>>>>>>>>> Message Now Area Start <<<<<<<<<<<<<<<< -->
+    <!-- >>>>>>>>>>>>>>>> Contact Area Start <<<<<<<<<<<<<<<< -->
     <section id="contact" class="contact_area section_padding_100">
         <div class="container">
             <div class="row justify-content-center">
@@ -449,7 +400,6 @@
                                     <!-- Single Input Area Start -->
                                     <div class="col-12 text-center">
                                         <button type="submit" class="btn light-btn">Send Message</button>
-                                        <!-- <button class="btn-contact-submit btn btn-lg btn-black" type="submit" id="form-submit" name="submit">Send Message</button> -->
                                     </div>
                                 </div>
                             </div>
@@ -459,83 +409,8 @@
             </div>
         </div>
     </section>
-<!-- 
-    <div class="map_contact_address_area">
-        Map Area Start
-        <div class="map_area" id="googleMap"></div>
-    </div> -->
-
-
-
 
     <!-- >>>>>>>>>>>>>>>> Footer Area Start <<<<<<<<<<<<<<<< -->
-    <!-- <footer class="footer_area section_padding_100 text-center bg-gray">
-        <div class="container">
-            <div class="row">
-                <div class="col-12"> -->
-                    <!-- Bottom Footer Copywrite Text Area -->
-                    <!-- <div class="footer_content"> -->
-                        <!-- Footer Content -->
-                        <!-- <div class="foo_contents"> -->
-                            <!-- Footer Logo -->
-                            <!-- <div class="footer_logo">
-                                <a href="index.html">Champ.</a>
-                            </div> -->
-                            <!-- Footer Social Icon -->
-                            <!-- <div class="footer_social_icon">
-                                <a target="_blank" href="https://www.facebook.com/sashakyunghwa"><i class="ti-facebook" aria-hidden="true"></i></a>
-                                <a href="#"><i class="ti-google" aria-hidden="true"></i></a>
-                                <a target="blank" href="https://www.instagram.com/sashakyunghwa"><i class="ti-instagram" aria-hidden="true"></i></a>
-                                <a href="#"><i class="ti-dribbble" aria-hidden="true"></i></a>
-                                <a href="#"><i class="ti-youtube" aria-hidden="true"></i></a>
-                            </div>
-                            <a href="#">sashakyunghwa@gmail.com</a>
-                            <a href="#">562 688 8762</a>
-                            <a href="#">Orange County, CA</a>
-                        </div> -->
-                        <!-- Copywrite Text -->
-                        <!-- <p>Sasha Ross</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer> -->
-
-    <!-- <footer id="footer" class="footer gray-bg">
-        <div class="container text-center">
-            <ul class="social mb-35 wow fadeInUp" data-wow-duration="1.5s" style="visibility:visible; animation-duration: 1.5s; animation-name: fadeInUp;">
-                <li>
-                    <a target="_blank" href="https://www.github.com/sashakyunghwa">
-                        <i class="fa fa-github">
-                        </i>
-                    </a>
-                </li>
-                <li>
-                    <a target="_blank" href="https://www.instagram.com/sashakyunghwa">
-                        <i class="fa fa-instagram">
-                        </i>
-                    </a>
-                </li>
-                <li>
-                    <a target="_blank" href="https:www.linkedin.com/in/sashakyunghwa">
-                        <i class="fa fa-linkedin">
-                        </i>
-                    </a>
-                </li>
-                <li>
-                    <a target="_blank" href="https:www.twitter.com/sashakyunghwa">
-                        <i class="fa fa-twitter">
-                        </i>
-                    </a>
-                </li>
-            </ul>
-            <p class="copyright">
-                <a class="copy-link scroll-top" href>Sasha Ross</a>
-                <br>
-            </p>
-        </div>
-    </footer> -->
-
     <footer id="footer" class="footer gray-bg">
             <div class="container text-center">
                 <ul class="social mb-60 wow fadeInUp" data-wow-duration="1.5s">
@@ -557,11 +432,10 @@
                 </p>
             </div>
     </footer>
-    
     <!-- >>>>>>>>>>>>>>>> Footer Area End <<<<<<<<<<<<<<<< -->
 
     <!-- >>>>>>>>>>>>>>>> All jQuery Plugins <<<<<<<<<<<<<<<< -->
-
+    
     <!-- jQuery (necessary for all JavaScript plugins) -->
     <script src="js/jquery/jquery-2.2.4.min.js"></script>
     <!-- Popper js -->
