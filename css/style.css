@@ -928,6 +928,9 @@
         height: 50px;
         margin-bottom: 15px;
         padding: 15px;
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 12px;
+        text-transform: uppercase;
         -webkit-transition-duration: 500ms;
         -o-transition-duration: 500ms;
         transition-duration: 500ms;
@@ -1568,4 +1571,9 @@ section {
 
 .contact-text {
     margin-top: 10px;
+    text-transform: uppercase;
+}
+
+.contact-text:hover {
+    color: #a3a3a3;
 }
