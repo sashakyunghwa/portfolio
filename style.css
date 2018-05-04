@@ -338,7 +338,7 @@
         height: 50px;
         background-color: #211b31;
         top: 80%;
-        right: -1px;
+        right: 0px;
         margin-top: -25px;
         border-radius: 3px 0 0 3px;
         text-align: center;
@@ -1034,7 +1034,7 @@
         overflow: hidden;
         background-position: center center;
         background-size: cover;
-        height: 868px;
+        height: 100vh;
         width: 100%;
     }
 
