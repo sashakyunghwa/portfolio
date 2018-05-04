@@ -51,22 +51,22 @@
                             <div class="collapse navbar-collapse" id="light-navbar">
                                 <ul class="navbar-nav ml-auto">
                                     <li class="nav-item">
-                                        <a href="#home">Home</a>
+                                        <a href="#home" onclick="$('.navbar-collapse').collapse('hide')">Home</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a href="#about">About</a>
+                                        <a href="#about" onclick="$('.navbar-collapse').collapse('hide')">About</a>
                                     </li>
                                     <li class="nav-item">
-                                            <a href="#skills">Skills</a>
+                                            <a href="#skills" onclick="$('.navbar-collapse').collapse('hide')">Skills</a>
                                     </li>
                                     <li class="nav-item">
-                                            <a href="#projects">Projects</a>
+                                            <a href="#projects" onclick="$('.navbar-collapse').collapse('hide')">Projects</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a href="#contact">Contact</a>
+                                        <a href="#contact" onclick="$('.navbar-collapse').collapse('hide')">Contact</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a href="img/resume/sasha_ross_resume.pdf" target="_blank">Resume</a>
+                                        <a href="img/resume/sasha_ross_resume.pdf" target="_blank" onclick="$('.navbar-collapse').collapse('hide')">Resume</a>
                                     </li>
                                 </ul>
                             </div>
@@ -99,7 +99,7 @@
                     <img class="about-me-photo"src="img/bg-img/about_me.jpg" style="width:100%" alt="">
                 </div>
                 <div class="about_paragraph offset-1 col-md-5 mb-sm-30">
-                    <p>I'm a <a href="#modal" onClick="document.getElementById('id01').style.display='block'"><strong>H.A.P.A.</strong></a> girl from the cozy streets of Orange County, who happily enjoys technology and creative innovation. I'm a Front End Developer. I'm fascinated by the digital space: web design, coding, branding, and photography.</p>
+                    <p>I'm a <a href="#about" onClick="document.getElementById('id01').style.display='block'"><strong>H.A.P.A.</strong></a> girl from the cozy streets of Orange County, who happily enjoys technology and creative innovation. I'm a Front End Developer. I'm fascinated by the digital space: web design, coding, branding, and photography.</p>
                     <p>I've created projects from personal branding to corporate branding designs. I created my own personal portfolio site from scratch and am currently in pursuit of improving my design skills day by day. I'm proficient with Adobe Creative Suite, specifically Photoshop, Illustrator, InDesign, and Adobe XD.</p>
                     <p>I'm passionate about creating something out of nothing. I love creating authentic designs and websites to show peoples'/brands' true personality. I love working with new clients, future employers, bloggers, and photographers to make your creative vision a reality! Let's create!</p>
                     <p id="hapa">#CreativeVibesOnly is what's H.A.P.A.ning!</p>
@@ -151,7 +151,7 @@
                     <div class="section_heading skill_area">
                         <h2>Skills</h2>
                     </div>
-                </div>
+                </div
                 
 
             <div class="row text-center">
@@ -179,20 +179,20 @@
                     <img class="skills-images"src="img/skills-icons/css3.svg" alt="">
                     <p class="icon-title mt-10">CSS3</p>  
                 </div>
-            </div>
+            <!-- </div>
 
-            <div class="row mt-5">
+            <div class="row mt-5"> -->
                 <div class="col-lg-2 col-md-2 col-4 content-box mb-20 skills-container">
                     <img class="skills-images"src="img/skills-icons/bootstrap.svg" alt="">
-                    <p class="icon-title mt-10">Bootstrap</p> 
+                    <p class="icon-title mt-10">Bootstrap<br></p> 
                 </div>
                 <div class="col-lg-2 col-md-2 col-4 content-box mb-20 skills-container">
                     <img class="skills-images"src="img/skills-icons/materialize.svg" alt="">
-                    <p class="icon-title mt-10">Materialize</p> 
+                    <p class="icon-title mt-10">Materialize<br></p> 
                 </div>
                 <div class="col-lg-2 col-md-2 col-4 content-box mb-20 skills-container">
                     <img class="skills-images"src="img/skills-icons/chrome.svg" alt="">
-                    <p class="icon-title mt-10">Chrome Dev Tools</p>  
+                    <p class="icon-title mt-10">Dev Tools</p>  
                 </div>
                 <div class="col-lg-2 col-md-2 col-4 content-box mb-20 skills-container">
                     <img class="skills-images"src="img/skills-icons/git.svg" alt="">
@@ -206,9 +206,9 @@
                     <img class="skills-images"src="img/skills-icons/visualstudiocode.svg" alt="">
                     <p class="icon-title mt-10">VS Code</p>         
                 </div>
-            </div>
+            <!-- </div>
 
-            <div class="row mt-5">
+            <div class="row mt-5"> -->
                 <div class="col-lg-2 col-md-2 col-4 content-box mb-20 skills-container">
                     <img class="skills-images"src="img/skills-icons/slack.svg" alt="">
                     <p class="icon-title mt-10">Slack</p> 
@@ -240,7 +240,7 @@
     <!-- >>>>>>>>>>>>>>>> Skills Area End <<<<<<<<<<<<<<<< -->
 
     <!-- >>>>>>>>>>>>>>>> Projects Area Start <<<<<<<<<<<<<<<< -->
-    <section id="projects" class="gallery_area section_padding_100 clearfix mt-10" id="portfolio">
+    <section id="projects" class="gallery_area clearfix mt-10" id="portfolio">
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -290,11 +290,11 @@
                                 </div> 
                             </div>
                             <div class="text-center align-middle">
-                                <a class="project-link" href="https://github.com/sashakyunghwa.com" target="_blank">
+                                <a class="project-link" href="https://github.com/sashakyunghwa/calibeats.git" target="_blank">
                                     <i class="fa fa-github github-icon"></i>
                                     <p class="project-icon-text">Github</p>
                                 </a>
-                                <a class="project-link" href="http://www.codingcoops.com" target="_blank">
+                                <a class="project-link" href="http://www.sashakyunghwa.com/calibeats" target="_blank">
                                     <i class="fa fa-television live-icon"></i>
                                     <p class="project-icon-text">Live</p>
                                 </a>
@@ -316,7 +316,7 @@
                                 </div>
                             </div>
                             <div class="text-center align-middle">
-                                <a class="project-link" href="https://github.com/sashakyunghwa/memory_match" target="_blank">
+                                <a class="project-link" href="https://github.com/sashakyunghwa/namaslay" target="_blank">
                                     <i class="fa fa-github github-icon"></i>
                                     <p class="project-icon-text">Github</p>
                                 </a>
@@ -335,7 +335,7 @@
     <!-- >>>>>>>>>>>>>>>> Project Area End <<<<<<<<<<<<<<<< -->
 
     <!-- >>>>>>>>>>>>>>>> Contact Area Start <<<<<<<<<<<<<<<< -->
-    <section id="contact" class="contact_area section_padding_100">
+    <section id="contact" class="contact_area">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-12 col-md-8">
@@ -413,7 +413,7 @@
     <!-- >>>>>>>>>>>>>>>> Footer Area Start <<<<<<<<<<<<<<<< -->
     <footer id="footer" class="footer gray-bg">
             <div class="container text-center">
-                <ul class="social mb-60 wow fadeInUp" data-wow-duration="1.5s">
+                <ul class="social wow fadeInUp" data-wow-duration="1.5s">
                     <li>
                         <a target="_blank" href="https://www.linkedin.com/in/sashakyunghwa"><i class="fa fa-linkedin"></i></a>
                     </li>
@@ -428,7 +428,7 @@
                     </li>
                 </ul>
                 <p class="copyright">
-                    <a class="copy-link scroll-top" href>Sasha Ross 2018</a>
+                    <a class="copy-link scroll-top">Sasha Ross 2018</a>
                 </p>
             </div>
     </footer>
