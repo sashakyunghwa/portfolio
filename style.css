@@ -1035,13 +1035,12 @@
         background-position: center center;
         background-size: cover;
         height: 868px;
-        background-attachment: fixed;
         width: 100%;
     }
 
-    @media handheld {
+    @media (min-width: 813px){
         .welcome_area {
-            background-attachment: initial;
+            background-attachment: fixed;
         }
     }
 
