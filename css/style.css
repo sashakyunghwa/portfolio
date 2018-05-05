@@ -38,7 +38,7 @@
 
     @font-face { 
         font-family: "Jenna Sue"; 
-        src: url('fonts/jenna-sue.ttf'); 
+        src: url('../fonts/jenna-sue.ttf'); 
     }    
 
     * {
