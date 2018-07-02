@@ -1577,3 +1577,8 @@ section {
 .contact-text:hover {
     color: #a3a3a3;
 }
+
+.about-me-photo {
+    width: 100%;
+    box-shadow: -55px 55px #df0211;
+}
