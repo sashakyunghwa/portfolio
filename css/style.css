@@ -1128,6 +1128,13 @@
         color: #fff;
     }
 
+    .gallery_info {
+        /* position: absolute;
+        top: 50%;
+        transform: translateY(-50%); */
+        text-align: center;
+    }
+    
     .animsition {
         overflow-x: hidden
     }

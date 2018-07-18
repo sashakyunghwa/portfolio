@@ -112,3 +112,95 @@
         font-size: 14px;
     }
 }
+
+@media only screen and (max-width: 991px) {
+    .about_paragraph {
+        margin-top: 17%;
+    }
+}
+
+
+@media only screen and (max-width: 465px) {
+    .gallery_info {
+        position: relative;
+        top: 50%;
+        transform: translateY(-96%);
+    }
+    #project-title {
+        font-size: 24px;
+    }
+    #project-description {
+        font-size: 13px;
+    }
+}
+
+@media only screen and (min-width: 320px) {
+    .gallery_info {
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    #project-title {
+        font-size: 17px;
+    }
+    #project-description {
+        font-size: 11px;
+    }
+}
+
+@media only screen and (min-width: 575px) {
+    .gallery_info {
+        position: relative;
+        top: 50%;
+        transform: translateY(-25%);
+    }
+    #project-title {
+        font-size: 18px;
+    }
+    #project-description {
+        font-size: 13px;
+    }
+}
+
+
+@media only screen and (min-width: 768px) {
+    .gallery_info {
+        position: relative;
+        top: 50%;
+        transform: translateY(-17%);
+    }
+    #project-title {
+        font-size: 16px;
+    }
+    #project-description {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .gallery_info {
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    #project-title {
+        font-size: 19px;
+    }
+    #project-description {
+        font-size: 13px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .gallery_info {
+        position: relative;
+        top: 50%;
+        transform: translateY(-90%);
+    }
+    #project-title {
+        font-size: 24px;
+    }
+    #project-description {
+        font-size: 14px;
+    }
+}
