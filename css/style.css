@@ -1284,6 +1284,7 @@
     .motto-photo{
         width: 75%;
         margin-top: 1%;
+        display: none;
     }
 
  
@@ -1377,6 +1378,8 @@ section {
 
 .about_paragraph {
     margin-top: 1%;
+    width: 60%;
+    margin-left: 8%;
 }
 
  .modal_width {
@@ -1530,7 +1533,7 @@ section {
 }
 
 .welcome_area {
-    background-size: contain;
+    /* background-size: contain; */
     background-repeat: no-repeat;
 }
 
@@ -1591,5 +1594,42 @@ section {
 
 .about-me-photo {
     width: 100%;
-    box-shadow: -55px 55px #df0211;
+    box-shadow: -55px 55px #000;
+}
+
+#fav-icon {
+    border-radius: 50%;
+}
+
+#code-editor-container {
+    background-color: black;
+}
+
+.number-div, .text-div {
+    font-family: 'Monaco';
+    color: lightgray;
+    font-size: 13px;
+}
+
+.number-div {
+    /* margin-right: 20px; */
+    padding-left: 40px;
+    /* text-align: center; */
+     width: 80px;
+    background-color: black;
+    color: lightgray;
+}
+
+.double-digits-div {
+    padding-left: 32px;
+    width: 80px;
+    background-color: black;
+    color: lightgray;
+    font-size: 13px;
+    font-family: 'Monaco';
+}
+
+.about-image-div {
+    width: 20%;
+    margin-left: 8%;
 }
