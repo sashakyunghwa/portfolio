@@ -201,8 +201,69 @@
     }
 }
 
+@media only screen and (max-width: 414px) {
+    .container {
+        padding-right: 40px;
+        padding-left: 40px;
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+    .about-image-div {
+        margin-bottom: 50px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .container {
+        padding-right: 25px;
+        padding-left: 25px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .about_paragraph {
+        margin-left: 0%;
+    }
+}
+
+
+@media only screen and (max-width: 991px) {
+    .about-image-div {
+        /* margin-top: 17%; */
+        width: 100%;
+    }
+}
+
 @media only screen and (max-width: 991px) {
     .about_paragraph {
         margin-top: 17%;
+        width: 100%;
     }
 }
+
+@media only screen and (max-width: 992px) {
+    .text-div {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (min-width: 1033px) {
+    .text-div {
+        font-size: 11px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .text-div {
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    #home {
+        background-image: url('../img/bg-img/hero-three.png');
+    }
+}
+

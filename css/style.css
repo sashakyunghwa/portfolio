@@ -1282,9 +1282,10 @@
     }
 
     .motto-photo{
-        width: 75%;
+        /* width: 75%; */
         margin-top: 1%;
         display: none;
+        /* background-size: 100% auto; */
     }
 
  
@@ -1603,6 +1604,7 @@ section {
 
 #code-editor-container {
     background-color: black;
+    overflow-y: scroll;
 }
 
 .number-div, .text-div {
@@ -1632,4 +1634,9 @@ section {
 .about-image-div {
     width: 20%;
     margin-left: 8%;
+}
+
+#home {
+    background-image: url('../img/bg-img/heroedit.png');
+    background-size: 100% auto;
 }
