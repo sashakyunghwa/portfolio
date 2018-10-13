@@ -1536,6 +1536,7 @@ section {
 .welcome_area {
     /* background-size: contain; */
     background-repeat: no-repeat;
+    background-color: #e8e8ea;
 }
 
 .mtb-10 {
@@ -1632,6 +1633,7 @@ section {
 }
 
 .about-image-div {
+    margin-top: 8%;
     width: 20%;
     margin-left: 8%;
 }
