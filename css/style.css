@@ -1605,7 +1605,8 @@ section {
 
 #code-editor-container {
     background-color: black;
-    overflow-y: scroll;
+    overflow-x: scroll;
+    min-width: 500px;
 }
 
 .number-div, .text-div {
